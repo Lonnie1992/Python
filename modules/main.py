@@ -23,15 +23,9 @@ def my_sin(x):
     return my_sin
 
 
-print(my_sin(9))
-
-
 def iso_now():
     now = dt.datetime.now().strftime("%Y-%m-%dT%H:%M")
     return now
-
-
-print(iso_now)
 
 
 def platform():
